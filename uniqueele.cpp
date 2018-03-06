@@ -2,7 +2,7 @@
 using namespace std;
 void main()
 {
-    int i,s[100000],j,n,c=0,swpd,temp;
+    int i,s[100000],j,n,c=0,swpd,t;
     cout<<"how many elements\n";
     cin>>s;
     for(i=0;i<n;i++)
@@ -14,9 +14,9 @@ void main()
         {
             if(s[j]>s[j+1])
             {
-                temp=s[j];
+                t=s[j];
                 s[j]=s[j+1];
-                s[j+1]=temp;
+                s[j+1]=t;
                 swpd=1;
             }
         }
