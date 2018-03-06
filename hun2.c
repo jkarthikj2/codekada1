@@ -3,6 +3,7 @@
 void main()
 {
 int n,j,v[100],tmp=0,cnt=0,i,b=0;
+printf("\n enter the no of elements:");
 scanf("%d",&n);
 for(i=0;i<n;i++)
 {
