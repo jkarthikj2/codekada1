@@ -1,32 +1,12 @@
 #include <stdio.h>
-#include<conio.h>
-int main(void)
+int main()
 {
-	int x[3],y[3];
-	int i,flag;
-	for(i=0;i<3;i++)
-	{
-		scanf("%d %d",&x[i],&y[i]);
-	}
-	for(i=0;i<2;i++)
-	{
-		if(x[i]==x[i+1] || y[i]==y[i+1])
-		{
-		flag=1;	
-		}
-		else
-		{
-			flag=0;
-			break;
-		}
-	}
-	if(flag==1)
-	{
-		printf("YES");
-	}
-	else
-	{
-		printf("NO");
-	}
-	return 0;
+    int x1,x2,y1,y2,z1,z2;
+    printf("\n enter the values:");
+    scanf("%d%d%d%d%d%d",&x1,&x2,&y1,&y2,&z1,&z2);
+    if(x1==y1&&y1==z1)
+    printf("YES");
+    else
+    printf("NO");
+    return 0;
 }
