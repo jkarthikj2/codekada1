@@ -15,11 +15,11 @@ int main()
    }
    if(count==0)
    {
-       printf("given is not a numeric ");
+       printf("NO");
    }
    else
    {
-       printf("given is a numeric");
+       printf("YES");
    }
 
     return 0;
