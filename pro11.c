@@ -4,7 +4,7 @@ int main()
 {
     int i,j=0,k=0,a,len;
     char s[200],s1[10][20],temp;
-    printf("enter the string:=");
+    printf("enter the string=");
     scanf("%[^\n]s",s);
     for(i=0;s[i]!='\0';i++)
     {
