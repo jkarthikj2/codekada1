@@ -2,7 +2,9 @@
 int main(void)
 {
 	int a,b,n,k,h[20],temp;
+	printf("\n enter the n&k values:");
 	scanf("%d%d",&n,&k);
+	printf("\n enter the values:");
 	for(a=0;a<n;a++)
 	{
 	scanf("%d",&h[a]);
