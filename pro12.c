@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(void)
 {
 	int a,b,n,k,h[20],temp;
