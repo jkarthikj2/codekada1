@@ -4,6 +4,7 @@ int main()
 {
     char a[10],b[10];
     int cost=0,n,n1,i,j;
+    printf("\n enter the two strings:");
     scanf("%s%s",a,b);
     n=strlen(a);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
     n1=strlen(b);
