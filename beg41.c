@@ -9,7 +9,7 @@ printf("\n enter the string:");
 scanf("%s",s);
 printf("\n enter the no of times you want:");
 scanf("%d",&n);
-if(n!=0)
+if(n>0)
 {
  for(i=1;i<=n;i++)
  {
